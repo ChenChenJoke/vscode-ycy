@@ -1,9 +1,9 @@
 {
-    "name": "ycy",
-    "displayName": "超越鼓励师",
-    "description": "写代码不再孤单，有杨超越与你同在",
+    "name": "cc",
+    "displayName": "CC老师鼓励师",
+    "description": "cp了杨超越鼓励师的代码，做一下test注明出处（自用）",
     "version": "0.0.3",
-    "publisher": "formulahendry",
+    "publisher": "原作者formulahendry，更改者cc",
     "icon": "logo.jpg",
     "engines": {
         "vscode": "^1.30.0"
@@ -12,18 +12,18 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
+        "CC老师",
         "提醒",
         "鼓励"
     ],
     "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
-        "email": "formulahendry@gmail.com"
+        "url": "https://github.com/ChenChenJoke/vscode-ycy/issues",
+        "email": "978563552@qq.com"
     },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
+    "homepage": "https://github.com/ChenChenJoke/vscode-ycy/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/ChenChenJoke/vscode-ycy.git"
     },
     "activationEvents": [
         "onCommand:ycy.showReminderView",
@@ -40,11 +40,11 @@
         ],
         "configuration": {
             "type": "object",
-            "title": "杨超越",
+            "title": "CC",
             "properties": {
                 "ycy.reminderViewIntervalInMinutes": {
                     "type": "number",
-                    "default": 60,
+                    "default": 30,
                     "description": "展示提醒页面的时间间隔（分钟）"
                 }
             }
