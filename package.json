@@ -3,7 +3,7 @@
     "displayName": "CC老师鼓励师",
     "description": "cp了杨超越鼓励师的代码，做一下test注明出处（自用）",
     "version": "0.0.3",
-    "publisher": "原作者formulahendry，更改者cc",
+    "publisher": "update-cc",
     "icon": "logo.jpg",
     "engines": {
         "vscode": "^1.30.0"
